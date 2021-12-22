@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #3C5A99;
+    padding: 8px 0px;
+    
+}
+.header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    max-width: 980px;
+    
+}
+.logo-area{
+    width: 30%;
+    float: left
+}
+.log-area{
+    width: 70%;
+    float: left;
+}
+.logo-area img{
+    width: 180px;
+    margin-top: 12px;
+}
+.log-area form{
+    float: right;
+    display: block;
+    font-size: 13px;
+    color: white;
+}
+.log-area .mail,
+.log-area .pass,
+.log-area .submit{
+    float: left;
+    margin-right: 12px;
+    
+}
+.log-area .submit{
+    margin-right: 0;
+}
+.log-area label,
+.log-area input{
+    display: block;
+}
+.log-area label{
+    padding-bottom: 3px;
+}
+.log-area input[type="text"],
+.log-area input[type="password"]{
+    padding: 2px 5px;
+    border: 1px solid grey;
+}
+.log-area .pass a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #9cb4d8;
+}
+.log-area .pass a:hover{
+    text-decoration: underline;
+}
+.log-area input[type="submit"]{
+    margin-top: 14px;
+    padding: 2px 5px;
+    color: white;
+    background: #4267b2;
+    border: 1px solid #29487d;
+}
+/* start middle area */
+.sec{
+  padding-top: 15px;
+    padding-bottom: 30px;
+    background: linear-gradient(white,#D4D9E9);
+
+}
+.sec::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.leftarea{
+    width: 60%;
+    float: left;
+}
+.rightarea{
+    width: 40%;
+    float: left;
+}
+.leftarea p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0e385f;
+    width: 90%;
+}
+.leftarea img{
+    width: 100%;
+}
+.rightarea h2{
+    font-size: 33px;
+    margin-top: 10px;
+    margin-bottom: 0
+    
+}
+.rightarea h4{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: 400;
+}
+.fullname{
+  overflow: hidden;
+    
+}
+.fname{
+  width: 48%;
+    float: left;
+    margin-right: 4%
+}
+.lname{
+  width: 48%;
+    float: left;
+    box-sizing: border-box
+  
+}
+.rightarea input[type="text"],
+.rightarea input[type="password"]{
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+.bday{
+   overflow: hidden;
+    margin-bottom: 15px;
+}
+.bday h4{
+    margin-bottom: 5px
+    
+}
+.bdate{
+  float: left;
+    width: 48%;    
+}
+.bdlink {
+   float: left;
+    width: 48%;
+}
+.bdate select{
+    float: left;
+    padding: 5px 1px;
+    border: 1px solid #ccc;
+}
+
+.bdlink a{
+    color: #365899;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    line-height: 1.1
+}
+.gender label{
+    font-size: 20px
+}
+.textbox{
+    font-size: 13px;
+    width: 85%;
+    color: #777;
+}
+.textbox a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #365899;
+
+}
+.textbox a:hover{
+    text-decoration: underline;
+}
+.send input{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 8px 17px;
+    min-width: 194px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    background: linear-gradient(#67ae55, #578843);
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 1px #a4e388;
+}
+.send input:hover{
+    background: linear-gradient(#578843, #67ae55)
+}
+.brand{
+    font-size: 13px;
+    font-weight: bold;
+    color: #777;
+}
+.brand a{
+    color: #365899;
+    text-decoration: none;
+}
+.brand a:hover{
+    text-decoration: underline;
+}
+.footer{
+    margin: 30px 0px;
+}
+.footer ul{
+  margin: 0;
+    padding: 0;
+}
+.footer li{
+    display: inline;
+    font-size: 13px;
+    
+}
+.footer ul li a{
+    color: #365899;
+    text-decoration: none;
+    
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer .top ul li{
+    margin-right: 10px
+}
+.footer .middle ul li{
+    margin-right: 12px;
+}
+.footer .top ul li:last-child,
+.footer .middle ul li:last-child{
+    margin-right: 0
+}
+.footer .active a{
+    color: #737373;
+}
+.footer .plus a{
+     border: 1px solid #737373;
+    background: azure;
+    padding: 0px 5px;
+    font-weight: bold;
+    color: #737373;
+    font-size: 15px
+}
+.footer hr{
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px
+}
+.bottom{
+    margin-top: 25px;
+}
+.bottom span{
+    
+    font-size: 13px;
+    color: #737373;
+}
+

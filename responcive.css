@@ -1,0 +1,67 @@
+/* For big Screen like pc mac etc */
+@media screen and (max-width: 980px){
+    .logo-area{
+        width: 100%;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .log-area{
+        width: 473px;
+        float: none;
+        margin: 8px auto;
+    }
+    .leftarea{
+        float: none;
+        width: 100%;
+    }
+    .leftarea p{
+        width: 100%;
+    }
+    .rightarea{
+        float: none;
+        width: 100%;
+    }
+    .bdate{
+        
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .bdlink{
+        width: 100%;
+    }
+}
+
+/* For medium screen, like pad etc */
+@media screen and (max-width: 768px){
+    .log-area{
+        width: 100%;
+    }
+    .log-area form{
+        float: none
+    }
+    .log-area .mail,
+    .log-area .pass,
+    .log-area .submit{
+        float: none
+    }
+    .log-area input[type="text"],
+    .log-area input[type="password"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .log-area .mail{
+        margin-bottom: 8px;
+    }
+    .log-area input[type="submit"]{
+        margin-top: 5px;
+    }
+    .
+}
+
+/* for small screen */
+@media screen and (max-width: 450px){
+    .rightarea h2{
+        font-size: 25px;
+    }
+}
